@@ -1,0 +1,163 @@
+1)num=7
+amt=122.122
+code='a'
+longg=100000
+msg='hi'
+print(num)
+print(amt,code,longg,msg)
+
+2)
+# write a program given data type
+num=int(input())
+print(type(num))
+print(num)
+
+3)
+# swapping of  two numbers
+a=10
+b=20
+print("before swap")
+print("a=",a)
+print("b=",b)
+print("after swap")
+print("a=",b)
+print("b=",a)
+
+4)
+# write a program circumference of a circle
+r=int(input("circumference of a cicle" ))
+c=(2*3.1415*r)
+print(c)
+
+5)
+# check given number is even or not
+a=10
+if a%2==0:
+    print("a is even")
+    print("10 is even")
+6)
+# write a program  ask user to print n number of times
+print("mahesh\n"*5)
+
+7)
+and not break class exec finally
+for from or pass print continue 
+def del import in if raise 
+global try while return else is lambda 
+with yeild list 
+
+8)
+# write a program  to print area of a given number 
+a,b,c=10,12,15
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print(area)
+print(type(area))
+
+9)
+# write a program  to print max value given number 
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b:
+    if a>c:
+        print("a is max")
+        else:
+            print("c is max")
+            elif b>c:
+                print("b is max")
+                else:
+                    print("all are same")
+
+10)
+# check whether positive or negetive of  given number 
+num=int(input("enter a "))
+if num==0:
+    print("zero")
+elif num>0:
+        print("positive")
+else:
+            print("negetive")
+
+11)
+# write a program range of the given numbers
+if num>0 and num<10:
+    print("range is 0-10")
+if num>=10 and num<20:
+    print("range is 10-20")
+if num >=20 and num<30:
+    print("range is 20-30")
+
+12)
+# check whether given numbers is greater or equal 
+a=10
+b=3
+c=4
+if a>b:
+           print("a is greater")
+else:
+           print("b is greater")
+if b>c:
+           print("c is greater")
+else:
+         print("equal")
+
+
+
+
+13)  a=int(input("enter a"))
+   b=int(input("enter a "))
+   if a>b:
+    print ("max number is",a)
+    else:
+        print("max numberis",b)
+
+
+
+14)     a,b,c=10,12,15
+        s=(a+b+c)/2
+      area=(s*(s-a)*(s-b)*(s-c))**0.5
+      print(area)
+       print(type(area))
+
+
+
+15)# swapping of two numbers
+   a=10
+   b=20
+print("before swap")
+print("a=",a)
+print("b=",b)
+print("after swap")
+print("a=",b)
+print("b=",a)
+
+
+16)  n=int(input("total capacity"))
+k=int(input("lower limit"))
+m=int(input("order size"))
+if c==0 or c>b:
+    print("invalid")
+    if c<b:
+        print("number of candies left are",n-m)
+        print("number of ordered",c)
+
+
+
+17)# increment of number
+um=int(input("enter number is "))
+# installiation
+i=0
+while(i<=num):# condition
+    print(i,end=' ')
+    i=i+1 #increment
+
+
+18)num=int(input("enter number is "))
+i=0
+sum=0
+while(i<=num):
+    sum=sum+i
+    i=i+1
+print(sum)
+    
